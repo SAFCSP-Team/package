@@ -1,6 +1,9 @@
+import school.students.Student;
+import school.students.StudentManagmentSystem;
 public class Main {
+
     public static void main(String[] args) {
-        StudentManagementSystem sms = new StudentManagementSystem();
+        StudentManagmentSystem sms = new StudentManagmentSystem();
         /* Adding students */
         Student student1 = new Student("Khaled", 1, 20, 85.5);
         sms.addStudent(student1);
